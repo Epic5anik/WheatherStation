@@ -4,9 +4,9 @@ using System.Diagnostics.Metrics;
 using static System.Net.Mime.MediaTypeNames;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace Database.myfolder
+namespace Database
 {
-    internal class MyApplycationContekst : DbContext
+    public class MyApplycationContekst : DbContext
     {
         public DbSet<Sensor> Sensors { get; set; }
         public DbSet<User> Users { get; set; }
