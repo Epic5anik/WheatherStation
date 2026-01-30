@@ -11,6 +11,8 @@ namespace WeatherStation
             {
                 myContext.Database.EnsureCreated();
             }
+
+            Console.WriteLine("Dwa");
         }
     }
 }
