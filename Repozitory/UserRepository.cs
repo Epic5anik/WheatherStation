@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Repozitory
 {
-    internal class UserRepository : IUserRepository
+    public class UserRepository : IUserRepository
     {
         private readonly MyApplycationContekst _dbContext;
 

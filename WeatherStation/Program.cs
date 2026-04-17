@@ -1,4 +1,5 @@
 ﻿using Database;
+using Repozitory;
 
 namespace WeatherStation
 {
@@ -10,6 +11,10 @@ namespace WeatherStation
             using (var myContext = new MyApplycationContekst())
             {
                 myContext.Database.EnsureCreated();
+                IUserRepository user = new UserRepository(myContext);
+                
+                var randomUserId = Random.Shared.Next(1000) + 1;
+                var randomUser = userRepository.GetUser(randomUserId);
             }
 
             Console.WriteLine("Dwa");

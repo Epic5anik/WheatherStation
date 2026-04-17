@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Repozitory
 {
-    internal interface IUserRepository
+    public interface IUserRepository
     {
         User? GetUser(int id);
     }
