@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation", "WeatherSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repozitory", "..\Repozitory\Repozitory.csproj", "{5D5FC0AD-074D-458F-9171-85B13DC1B528}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "..\UnitTest\UnitTest.csproj", "{F00FCC95-C7E7-4E47-9E1A-B793DAAC3232}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5D5FC0AD-074D-458F-9171-85B13DC1B528}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D5FC0AD-074D-458F-9171-85B13DC1B528}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D5FC0AD-074D-458F-9171-85B13DC1B528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F00FCC95-C7E7-4E47-9E1A-B793DAAC3232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F00FCC95-C7E7-4E47-9E1A-B793DAAC3232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F00FCC95-C7E7-4E47-9E1A-B793DAAC3232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F00FCC95-C7E7-4E47-9E1A-B793DAAC3232}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
